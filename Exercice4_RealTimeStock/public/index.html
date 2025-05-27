@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Suivi des Stocks en Temps Réel</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Suivi des Stocks</h1>
+
+    <div id="chart-container"></div>
+
+    <form id="stock-form">
+      <input type="hidden" id="stock-id">
+      <input type="text" id="product-name" placeholder="Produit" required>
+      <input type="number" id="quantity" placeholder="Quantité" required>
+      <button type="submit">Enregistrer</button>
+      <button type="button" id="cancel-btn" class="hidden">Annuler</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr><th>ID</th><th>Produit</th><th>Quantité</th><th>Actions</th></tr>
+      </thead>
+      <tbody id="stocks-tbody"></tbody>
+    </table>
+  </div>
+
+  <script src="js/stock.js"></script>
+</body>
+</html>

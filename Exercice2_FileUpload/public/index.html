@@ -1,0 +1,33 @@
+<!-- File: Exercice2_FileUpload/public/index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload de Fichiers</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gestion de Fichiers</h1>
+
+    <section class="upload-section">
+      <h2>Uploader un fichier</h2>
+      <form id="upload-form">
+        <input type="file" id="file-input" name="file" required>
+        <button type="submit">Envoyer</button>
+      </form>
+      <p id="upload-status"></p>
+    </section>
+
+    <section class="list-section">
+      <h2>Liste des fichiers</h2>
+      <button id="refresh-btn">Rafraîchir</button>
+      <ul id="file-list"></ul>
+    </section>
+  </div>
+
+  <script src="js/upload.js"></script>
+</body>
+</html>

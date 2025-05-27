@@ -1,0 +1,35 @@
+/* File: Exercice2_FileUpload/public/css/style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f5;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.upload-section, .list-section {
+  margin-bottom: 20px;
+}
+#upload-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#upload-status {
+  margin-top: 10px;
+  color: #333;
+}
+#file-list {
+  list-style: none;
+  padding: 0;
+}
+#file-list li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}

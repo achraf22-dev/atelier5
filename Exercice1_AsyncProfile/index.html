@@ -1,0 +1,41 @@
+<!-- File: Exercice1_AsyncProfile/index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Utilisateur</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Profile Utilisateur</h1>
+        <div id="profile-card" class="card hidden">
+            <img id="avatar" src="image.png" alt="Avatar" class="avatar">
+            <div class="info">
+                <p><strong>Nom :</strong> <span id="name"></span></p>
+                <p><strong>Email :</strong> <span id="email"></span></p>
+                <p><strong>Genre :</strong> <span id="gender"></span></p>
+            </div>
+        </div>
+
+        <h2>Utilisateurs Supplémentaires</h2>
+        <table id="users-table" class="hidden">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Email</th>
+                    <th>Login</th>
+                    <th>Adresse</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows ajoutés dynamiquement -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

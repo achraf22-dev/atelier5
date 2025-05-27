@@ -1,0 +1,20 @@
+DELETE called
+DELETE input: {"id":1}
+Deleted from DB: ID 1
+Broadcasted deletion: ID 1
+DELETE called
+DELETE input: {"id":15}
+Deleted from DB: ID 15
+Broadcasted deletion: ID 15
+DELETE called
+DELETE input: {"id":2}
+Deleted from DB: ID 2
+Broadcasted deletion: ID 2
+DELETE called
+DELETE input: {"id":17}
+Deleted from DB: ID 17
+Broadcasted deletion: ID 17
+DELETE called
+DELETE input: {"id":6}
+Deleted from DB: ID 6
+Broadcasted deletion: ID 6

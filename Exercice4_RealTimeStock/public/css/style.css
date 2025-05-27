@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; background: #f4f6f8; margin:0; padding:20px; }
+.container { max-width: 800px; margin:auto; background:#fff; padding:20px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+#chart-container { height: 400px; margin-bottom: 20px; }
+form { display:flex; gap:10px; margin-bottom:20px; }
+input, button { padding:8px; font-size:14px; }
+button { cursor:pointer; }
+.hidden { display:none; }
+table { width:100%; border-collapse:collapse; }
+th, td { padding:8px; border:1px solid #ddd; text-align:left; }
+th { background:#f0f0f0; }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rooms Management</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Gestion des Salles</h1>
+
+  <form id="room-form">
+    <input type="hidden" id="room-id">
+    <input type="text" id="room-name" placeholder="Nom de la salle" required>
+    <input type="number" id="room-capacity" placeholder="Capacité" required>
+    <button type="submit">Sauvegarder</button>
+    <button type="reset" id="cancel-btn" style="display:none">Annuler</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nom</th>
+        <th>Capacité</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="room-list"></tbody>
+  </table>
+
+  <script src="js/rooms.js"></script>
+</body>
+</html>
